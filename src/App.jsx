@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, Button, Clipboard, ScrollView, TouchableOpacity } from "react-native";
+import { View, Text, TextInput, Button, Clipboard, ScrollView, TouchableOpacity } from "react";
 
 export default function TaskManager() {
   const [folders, setFolders] = useState({});
